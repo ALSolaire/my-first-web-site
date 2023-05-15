@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <h1>내가</h1>
+  <h2>좋아하는</h2>
+  <h3>밴드</h3>
+<ul>
+    <script>
+        band = ["키스_(밴드)", "유럽_(음악 그룹)", "주다스 프리스트", "오아시스_(밴드)", "브레이킹 벤저민", "사바톤", "파이브 핑거 데스 펀치", "스리 데이스 그레이스", "아이언 메이든", "푸 파이터스"];
+        imgList = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg", "10.jpg"];
+        var i = 0;
+        var k = 0;
+        while(i < band.length){
+            document.write('<li><a href="https://ko.wikipedia.org/wiki/' + band[i] + '">' + band[i] + '</li>');
+            document.write('<img src="' + imgList[i] + '" width="300" height="200">');
+            i = i + 1;
+        }
+    </script>
+</ul>
+</body>
+</html>
